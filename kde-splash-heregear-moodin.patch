@@ -1,0 +1,9 @@
+diff -ur heregear.orig/Theme.rc heregear/Theme.rc
+--- heregear.orig/Theme.rc	2006-01-13 19:38:59.000000000 +0100
++++ heregear/Theme.rc	2006-01-15 23:13:33.598905000 +0100
+@@ -1,4 +1,4 @@
+-[KSplash Theme: heregear]
++[KSplash Theme: heregear-moodin]
+ Name = Here-Gear
+ Description = Moodin Splash Screen 
+ Version = 1.1
