@@ -1,7 +1,7 @@
 %define		_splash		heregear
 
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	1.0
 Release:	1
@@ -21,13 +21,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Splash screen based on here-gear wallpaper. Simple 3D art with KDE
 gear.
 
-%description -l pl
+%description -l pl.UTF-8
 Ekran startowy oparty na tapecie here-gear. Prosta grafika 3D z
-"zêbatk± KDE".
+"zÄ™batkÄ… KDE".
 
 %package -n kde-splash-%{_splash}-moodin
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Group:		X11/Amusements
 Requires:	kdebase-desktop >= 9:3.4.0
 Requires:	kde-splash-moodin
@@ -36,10 +36,10 @@ Requires:	kde-splash-moodin
 Splash screen based on here-gear wallpaper. Simple 3D art with KDE
 gear. Moodin version. Designed for 1024x768 resolution.
 
-%description -n kde-splash-%{_splash}-moodin -l pl
+%description -n kde-splash-%{_splash}-moodin -l pl.UTF-8
 Ekran startowy oparty na tapecie here-gear. Prosta grafika 3D z
-"zêbatk± KDE". Wersja dla silnika Moodin. Przygotowana dla
-rozdzielczo¶ci 1024x768.
+"zÄ™batkÄ… KDE". Wersja dla silnika Moodin. Przygotowana dla
+rozdzielczoÅ›ci 1024x768.
 
 %prep
 %setup -q -n %{_splash} -a1
