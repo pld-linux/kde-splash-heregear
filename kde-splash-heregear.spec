@@ -1,7 +1,7 @@
 %define		_splash		heregear
 
 Summary:	KDE splash screen
-Summary(pl.UTF-8):   Ekran startowy KDE
+Summary(pl.UTF-8):	Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	1.0
 Release:	1
@@ -27,7 +27,7 @@ Ekran startowy oparty na tapecie here-gear. Prosta grafika 3D z
 
 %package -n kde-splash-%{_splash}-moodin
 Summary:	KDE splash screen
-Summary(pl.UTF-8):   Ekran startowy KDE
+Summary(pl.UTF-8):	Ekran startowy KDE
 Group:		X11/Amusements
 Requires:	kdebase-desktop >= 9:3.4.0
 Requires:	kde-splash-moodin
